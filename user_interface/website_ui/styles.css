@@ -1,0 +1,176 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+.general-background-color {
+    background-color: #eaeaea;
+}
+
+.tableFont {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.selectedPreview {
+    /*font-family: monospace;*/
+    font-size: 14px;
+}
+
+.table_vis_header {
+    background-color: #efefef;
+    font-size: 15px;
+}
+
+.google-visualization-table .gradient {
+    background-image: none !important;
+}
+
+#map {
+    height: 900px;
+    width: 100%
+}
+
+#legend {
+    display: flex;
+    display: -webkit-box;
+    padding-top: 7px;
+    width: 500px;
+}
+
+.legend_text {
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow:
+            -1px -1px 0 #000,
+            0   -1px 0 #000,
+            1px -1px 0 #000,
+            1px  0   0 #000,
+            1px  1px 0 #000,
+            0    1px 0 #000,
+            -1px  1px 0 #000,
+            -1px  0   0 #000;
+}
+
+.tag {
+    position:absolute;
+    bottom: 1.8%;
+    width: 40%;
+    z-index: 1000;
+}
+
+select{
+    background-color: #efefef;
+    border-radius: 4px;
+    color: #1f1f1f;
+    border: 1px solid #b2b2b2;
+    padding: 6px 6px;
+    overflow: hidden;
+    width:100%;
+    text-overflow: ellipsis;
+}
+
+button {
+    background-color: #efefef;
+    border-radius: 4px;
+    color: #1f1f1f;
+    border: 1px solid #b2b2b2;
+    padding: 4px 8px;
+}
+
+option {
+    font-size: 14px;
+}
+
+#categorical_legend {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#categorical_legend h3 {
+    margin-top: 0;
+}
+
+#categorical_legend img {
+    vertical-align: middle;
+}
+
+.color-key {
+    background: linear-gradient(
+            to right,
+            hsl(240, 100%, 36%) 0%,
+            hsl(234, 100%, 50%) 11%,
+            hsl(211, 100%, 50%) 22%,
+            hsl(185, 100%, 49%) 33%,
+            hsl(148, 100%, 66%) 44%,
+            hsl(92, 100%, 66%) 55%,
+            hsl(59, 100%, 49%) 66%,
+            hsl(35, 100%, 50%) 77%,
+            hsl(13, 100%, 50%) 88%,
+            hsl(0, 100%, 36%) 100%
+    );
+    flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0 5px;
+    text-align: left;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    padding-right: 3%;
+}
+
+/* Alternative continuous scales. A longer one and a shorted one*/
+
+/*.color-key {*/
+/*    background: linear-gradient(*/
+/*            to right,*/
+/*            hsl(1, 100%, 55%) 0%,*/
+/*            hsl(17, 100%, 57%) 5.2%,*/
+/*            hsl(28, 100%, 59%) 10.4%,*/
+/*            hsl(42, 91%, 59%) 15.6%,*/
+/*            hsl(71, 88%, 61%) 20.8%,*/
+/*            hsl(87, 94%, 62%) 26%,*/
+/*            hsl(111, 93%, 62%) 31.2%,*/
+/*            hsl(139, 95%, 50%) 36.4%,*/
+/*            hsl(147, 100%, 49%) 41.6%,*/
+/*            hsl(157, 100%, 49%) 46.8%,*/
+/*            hsl(172, 100%, 49%) 52%,*/
+/*            hsl(188, 100%, 50%) 57.2%,*/
+/*            hsl(203, 100%, 49%) 62.4%,*/
+/*            hsl(216, 100%, 49%) 67.6%,*/
+/*            hsl(224, 100%, 49%) 72.8%,*/
+/*            hsl(236, 93%, 59%) 78%,*/
+/*            hsl(267, 94%, 62%) 83.2%,*/
+/*            hsl(288, 86%, 60%) 88.4%,*/
+/*            hsl(316, 87%, 58%) 93.6%,*/
+/*            hsl(330, 100%, 59%) 100%*/
+/*    );*/
+/*    flex: 1;*/
+/*    -webkit-box-flex: 1;*/
+/*    margin: 0 5px;*/
+/*    text-align: left;*/
+/*    font-size: 1.0em;*/
+/*    line-height: 1.0em;*/
+/*}*/
+
+/*.color-key {*/
+/*    background: linear-gradient(*/
+/*            to right,*/
+/*            hsl(5, 69%, 54%) 0%,*/
+/*            hsl(29, 71%, 51%) 17%,*/
+/*            hsl(54, 74%, 47%) 33%,*/
+/*            hsl(78, 76%, 44%) 50%,*/
+/*            hsl(102, 78%, 41%) 67%,*/
+/*            hsl(127, 81%, 37%) 83%,*/
+/*            hsl(151, 83%, 34%) 100%*/
+/*    );*/
+/*    flex: 1;*/
+/*    -webkit-box-flex: 1;*/
+/*    margin: 0 5px;*/
+/*    text-align: left;*/
+/*    font-size: 1.0em;*/
+/*    line-height: 1.0em;*/
+/*}*/
