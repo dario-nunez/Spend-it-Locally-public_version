@@ -3,11 +3,26 @@
 
 A Data Science system to analyse the socio-economic state of The City of Westminster in London, United Kingdom. Consists of a data processing pipeline written in Python and a user interface and data visualization system written in Javascript. The system deals with resident census data, a places catalogue, population demographic distribution estimate models and supply & demand metrics. 
 
-## Running instructions
+## 1. Running instructions
 
-In the delivered version of the project, the datasets in the data processing project are not present due to legal reasons. The user interface does have the datasets it requires to run, so the running instructions can be followed starting at step 6. 
+In the delivered version of the project, the datasets in the data processing project are not present due to legal reasons. The user interface does have the datasets it requires to run, so the executions steps can be followed starting at step 6. 
 
-### Steps
+### 1.1. Preparation steps
+
+1. Create a Google Cloud Console account.
+2. Create a Google Cloud project.
+3. Enable the Google Maps: Places, Javascript and Maps APIs. Instructions at https://developers.google.com/maps/documentation/javascript/places.
+4. Generate an API key for the project.
+
+**(Data processing pipeline)**
+
+5. Create the file `data_processing/src/focused_data/api.py` and set its contents to `api_key = "[API_KEY]"`.
+
+**(User interface and visualization web application)**
+
+6. Create the file `user_interface/website_ui/credentials/google_maps_api_credentials.js` and set its contents to `const apiKey = "[API_KEY]"`.
+
+### 1.2. Execution steps
 
 **(Data processing pipeline)**
 
@@ -22,7 +37,7 @@ In the delivered version of the project, the datasets in the data processing pro
 6. Ensure all the required data files are found in the `user_interface/website_ui/data` directory.
 7. Launch the web application project. 
 
-### Web application launching
+### 1.3. Web application launching
 
 For development, testing and demonstrations, it is sufficient to launch the app in a local development server. Many alternatives exist but a working procedure is detailed below:
 
